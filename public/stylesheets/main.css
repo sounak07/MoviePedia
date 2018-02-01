@@ -63,6 +63,13 @@ footer {
     font-family: 'Chelsea Market', 'san-serief';
 }
 
+#error{
+    color:red;
+    font-size:40px;
+    margin:0 auto;
+    margin-top:30px;
+}
+
 @media only screen and (max-width : 560px){
     .cover{
         background-attachment: scroll;
@@ -82,8 +89,4 @@ footer {
     .cover-text{
         padding:35px 0 35px 0 ;
     }
-    .cover{
-        
-    }
-    
 }
