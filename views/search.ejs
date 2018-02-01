@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Moviepedia</title>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/ico" href="http://www.omdbapi.com/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="/stylesheets/main.css"></link>
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet"
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">-->
+        <script src="https://use.fontawesome.com/f90313f33f.js"></script>
+    </head>
+<body>  
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar-scroll">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="border: none">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">MoviePedia</a>
+        </div>
+     </div>
+    </nav>
+    <div>
+        <div class="cover">
+            <div class="cover-text">
+                <div class="container">
+                  <h1>MoviePedia</h1><br>
+                  <p class="lead">We're that "cool" people who don't get offended if you forget Name of the Movie or TV Series you are looking for.Why?<br>
+                  You can just get it with us just by typing a letter or a word you remember.So easy...right? Well, Go ahead then!</p>
+                    <form action="/results" method="GET">
+            		    <div class="input-group search-bar">
+                            <input type="text" class="form-control" name="search" id="search-query" placeholder="Search..." value="">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" id="quicksearch" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                            </span>
+                        </div>
+                    </form>
+                  
+                </div>
+            </div>   
+        </div>
+        
+    </div> 
+    
+    <footer>
+          Crafted with &hearts; in calgary by <a href="https://www.facebook.com/sounak.gupta.7">Sounak</a>
+    </footer>
+</body>
+
+
+            
