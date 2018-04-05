@@ -5,3 +5,4 @@ Omdb API is used to develop this application.
 
 To run the app, clone it and install the dependencies.
 
+Demo: https://frozen-brushlands-56391.herokuapp.com/
