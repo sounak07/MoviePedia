@@ -44,7 +44,7 @@
                   You can just get it with us just by typing a letter or a word you remember.So easy...right? Well, Go ahead then!</p>
                     <form action="/results" method="GET">
             		    <div class="input-group search-bar">
-                            <input type="text" class="form-control" name="search" id="search-query" placeholder="Search..." value="">
+                            <input type="text" class="form-control" name="search" id="search-query" placeholder="Search..." value="" onkeyup="return forceLower(this);">
                             <span class="input-group-btn">
                                 <button class="btn btn-default" id="quicksearch" type="submit"><span class="glyphicon glyphicon-search"></span></button>
                             </span>
@@ -56,6 +56,12 @@
         </div>
         
     </div> 
+    <script>
+      function forceLower(strInput) 
+      {
+      strInput.value=strInput.value.toLowerCase();
+      }
+    </script>
     
     <footer>
           Made with &hearts; in India by <a href="https://www.facebook.com/sounak.gupta.7">Sounak</a> for them.
